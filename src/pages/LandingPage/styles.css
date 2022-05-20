@@ -1,0 +1,24 @@
+.container-main {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-size: 64px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+    .container-main {width: 80vw;}
+  }
+
+.layout-main {
+    background-color: #0065C3;
+}
+
+.image-link {
+    width: 100%;
+}
+
+.aside {
+    background-image: url('../../img/artist-photography.jpg');
+    background-size: cover;
+}
