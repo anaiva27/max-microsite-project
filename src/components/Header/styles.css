@@ -1,0 +1,18 @@
+.header-container {
+    display: flex;
+    height: 112px;
+    padding: 0 40px;
+    align-items: center;
+
+}
+
+.image-logo {
+   height: 80%;
+}
+
+@media (max-width: 1025px) {
+    .header-container {
+        justify-content: center;
+    
+    }
+  }

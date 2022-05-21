@@ -1,34 +1,44 @@
-.input-name{
-    width: 100%;
+.input-name {
+  width: 100%;
+}
+
+#firstName {
+    margin-right: 11px;
 }
 
 .form-names {
-    display: flex; 
-    flex-direction: row;
-    align-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
 }
 
 .form-items {
-    display: flex; 
-    flex-direction: column;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .artist-form {
-    padding: 0.5em 1.5em;
-    background: url('../../img/form-background.jpg');
-    background-size: cover;
-    font-weight: 700;
+  background: url("../../img/form-background.jpg");
+  background-size: cover;
+  font-weight: 700;
+  width: 100%;
+}
+
+.form-wrapper {
+  width: 443px;
+  padding: 50px 24px;
+  margin: 0 auto;
 }
 
 .artist-form input {
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 11px 11px 0px 11px;
-    text-align: center;
-    padding: 11px 12px;
-    font-size: 15px;
-    border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 11px;
+  text-align: center;
+  padding: 11px 12px;
+  font-size: 15px;
+  border-radius: 6px;
 }
 
 /* .form-container{
@@ -38,28 +48,27 @@
 } */
 
 .form-header {
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .form-text {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .checkbox-text {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .button-submit {
-    background-color: transparent;
-    border: 3px solid white;
-    border-radius: 50px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #FFF;
-    font-size: 1.5rem;
-    margin: 10px;
-    padding: 11px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 11px;
 }
-

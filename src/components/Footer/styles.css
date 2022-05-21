@@ -1,5 +1,17 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1025px) {
+  .footer-container {
+    justify-content: center;
+    }
+}
+
 .text-copyright {
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 100px;
 }

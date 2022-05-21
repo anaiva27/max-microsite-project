@@ -3,7 +3,9 @@ import './styles.css'
 
 function Footer() {
   return (
-    <p className="text-copyright"> &copy; 2020 Music Audience Exchange. Privacy Policy. Powered by Music Audience Exchange</p>
+    <div className='footer-container'>
+      <p className="text-copyright"> &copy; 2020 Music Audience Exchange. Privacy Policy. Powered by Music Audience Exchange</p>
+    </div>
   )
 }
 

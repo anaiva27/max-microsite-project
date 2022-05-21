@@ -29,19 +29,25 @@ const LandingPage = () => {
       <ThemeProvider theme={theme}>
         <Box className="container-main">
           <Grid container className="layout-main">
-            <Grid item xs={12} sm={12}>
-              <Header />
+            <Grid item xs={12} sm={2}>
+             <Header />
             </Grid>
-            <Grid item xs={12} md={7} lg={5} xl={5} className="">
-              <Box sx={{width: 641}}>
-              <Form />
-              <img src={imageLink} className="image-link" />
-              </Box>
+
+            <Grid item container xs={12} md={12} >
+
+              <Grid item xs={6} >
+                <Grid item xs={12} md={12}>
+                  <Form />
+                  <img src={imageLink} className="image-link" />
+                </Grid>
+              </Grid>
+
+              <Grid item xs={6}>
+              <img src={imageAside} className="hero-section" />
+              </Grid>
+              
             </Grid>
-            <Grid item xs={12} md={5} lg={7} xl={7} className="hero-column">
-              <img src={imageAside} className="hero-image" />
-              <img src={brandLogo} className="image-brand" />
-            </Grid>
+
             <Grid item xs={12} md={12} className="footer">
               <Footer />
             </Grid>

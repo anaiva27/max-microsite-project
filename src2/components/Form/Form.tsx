@@ -4,7 +4,6 @@ import "./styles.css";
 function Form() {
   return (
     <form className="artist-form">
-      <div className="form-wrapper">
       <h1 className="form-header">
         Register to see an exclusive livestream performance with kem
       </h1>
@@ -53,7 +52,6 @@ function Form() {
         <button type="submit" className="button-submit">
           Enter
         </button>
-      </div>
       </div>
       </div>
     </form>

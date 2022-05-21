@@ -1,24 +1,49 @@
 .container-main {
   display: flex;
-  justify-content: center;
   width: 100vw;
-  font-size: 64px;
   margin: 0 auto;
+  background-color: #0065c3;
 }
 
-@media (min-width: 1440px) {
-    .container-main {width: 80vw;}
+@media (min-width: 1450px) {
+  .container-main {
+    width: 80vw;
   }
-
-.layout-main {
-    background-color: #0065C3;
 }
 
-.image-link {
+.main-column{
+  width: 641px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    order: 2;
+  }
+  .main-column{
+    order: 1;
+  }
+}
+
+ .image-link {
     width: 100%;
+    margin-bottom: -5px;
+ } 
+
+.hero-column {
+  position: relative;
 }
 
-.aside {
-    background-image: url('../../img/artist-photography.jpg');
-    background-size: cover;
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
+.image-brand {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 50%;
+}
+
+
