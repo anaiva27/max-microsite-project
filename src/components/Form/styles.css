@@ -3,7 +3,7 @@
 }
 
 #firstName {
-    margin-right: 11px;
+  margin-right: 11px;
 }
 
 .form-names {
@@ -21,12 +21,11 @@
 .artist-form {
   background: url("../../img/form-background.jpg");
   background-size: cover;
-  font-weight: 700;
   width: 100%;
 }
 
 .form-wrapper {
-  width: 443px;
+  max-width: 443px;
   padding: 50px 24px;
   margin: 0 auto;
 }
@@ -39,26 +38,44 @@
   padding: 11px 12px;
   font-size: 15px;
   border-radius: 6px;
+  border: 0px;
+  box-shadow: 0 1px 2px 1px #5050505e;
 }
-
-/* .form-container{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-} */
 
 .form-header {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: -15px;
 }
 
 .form-text {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .checkbox-text {
   font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .form-wrapper {
+    max-width: 338px;
+    padding: 30px 24px;
+  }
+  .form-header {
+    font-size: 1.5rem;
+  }
+  .checkbox-text {
+    font-size: 1.1rem;
+  }
+  .form-text {
+    font-size: 1.2rem;
+  }
 }
 
 .button-submit {
@@ -68,7 +85,6 @@
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  font-size: 1.5rem;
-  margin: 10px;
-  padding: 11px;
+  font-size: 1.62rem;
+  padding: 7px;
 }

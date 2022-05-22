@@ -5,9 +5,9 @@ function Form() {
   return (
     <form className="artist-form">
       <div className="form-wrapper">
-      <h1 className="form-header">
+      <p className="form-header">
         Register to see an exclusive livestream performance with kem
-      </h1>
+      </p>
       <p className="form-text">
         and be entered for a chance to win a virtual &amp; greet
       </p>
@@ -45,11 +45,11 @@ function Form() {
           placeholder="Email"
           required
         />
-        <p className="checkbox-text">
+        <div className="checkbox-text">
           <input type="checkbox" id="check" required />
-          By checking this box and clicking enter, I agree that I am 21 years of
-          age or older.
-        </p>
+          <p> By checking this box and clicking enter, I agree that I am 21 years of
+          age or older.</p>
+        </div>
         <button type="submit" className="button-submit">
           Enter
         </button>
