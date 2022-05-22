@@ -65,6 +65,7 @@
 @media (max-width: 1024px) {
   .form-wrapper {
     max-width: 338px;
+    width: 338px;
     padding: 30px 24px;
   }
   .form-header {
@@ -87,4 +88,39 @@
   color: #fff;
   font-size: 1.62rem;
   padding: 7px;
+}
+
+.checkbox {
+  display: inline-block; 
+  height: 20px;
+  width: 35px;
+  background: #FFF;
+  border: 2px #FFF solid;
+  border-radius: 5px;
+  margin: 20px 10px 0px 0px;
+  fill:white;
+}
+
+@media (max-width:1024px){
+  .checkbox {
+    width: 50px;
+  }
+}
+
+.active {
+  fill: black;
+}
+
+input[type="checkbox"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.checkbox-label {
+  display: inline;
 }

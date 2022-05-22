@@ -1,6 +1,6 @@
 .container-main {
   display: flex;
-  width: 100vw;
+  width: auto;
   margin: 0 auto;
   background-color: #0065c3;
   flex-direction: column;
@@ -18,12 +18,6 @@
     width: 70vw;
   }
 }
-
-/* @media (max-width: 375px) {
-    .container-main {
-        width: 375px; 
-    }
-} */
 
 .form-column {
   flex: 0 0 641px;
@@ -53,11 +47,11 @@
 .hero-column {
   background: url("../../img/artist-photography.jpg");
   position: relative;
+  display: flex;
   flex-grow: 1;
   overflow: hidden;
   background-size: cover;
   background-position: top;
-  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20vh;
